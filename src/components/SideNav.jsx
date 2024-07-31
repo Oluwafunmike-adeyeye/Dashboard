@@ -10,9 +10,9 @@ import { SlLogout } from "react-icons/sl";
 
 const SideNav = () => {
   return (
-    <div className="flex flex-col h-full w-32 text-sm bg-gray-300 text-gray-900 overflow-y-auto overflow-x-hidden relative">
+    <div className="flex flex-col h-full w-32 text-xs bg-gray-300 text-gray-900 overflow-y-auto overflow-x-hidden relative">
       <nav className="flex-1">
-        <ul className="text-sm">
+        <ul>
           <li className="">
             <Link href="/" className="flex flex-col items-center p-2 hover:bg-gray-800 hover:text-white">
               <GoHome size={20} className="mr-1" />
@@ -64,7 +64,7 @@ const SideNav = () => {
           <li className="">
             <Link href="/addons" className="flex flex-col items-center p-2 hover:bg-gray-800 hover:text-white">
               <div className="bg-[blue] rounded-full h-4 w-4"></div>
-              Add On's
+              Add On&apos;s
             </Link>
           </li>
         </ul>
@@ -76,7 +76,7 @@ const SideNav = () => {
             </Link>
           </li>
           <li className="">
-            <Link href="/help" className="flex flex-col items-center text-[12px] p-2 hover:bg-gray-800 hover:text-white ">
+            <Link href="/help" className="flex flex-col items-center text-[10px] p-2 hover:bg-gray-800 hover:text-white ">
               <BsQuestionSquare size={20} className="mr-1" />
               Help Center
             </Link>

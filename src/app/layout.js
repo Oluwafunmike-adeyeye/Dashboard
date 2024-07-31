@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <React.Suspense fallback={<div>Loading...</div>}>
           <div className="min-h-full bg-white w-full">
             <Header />
-            <div className="flex min-h-full w-full md:overflow-x-hidden">
+            <div className="flex h-full w-full md:overflow-x-hidden">
               <SideNav />
               {children}
             </div>
