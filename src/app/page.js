@@ -11,8 +11,8 @@ import StarStudents from "../components/StarStudents";
 
 const Home = () => {
   return (
-    <div className="container mx-auto flex">
-      <div className="w-[280px] h-full bg-gray-100">
+    <div className="container mx-auto bg-gray-900 w-[82%] xl:w-full flex">
+      <div className="w-[280px] h-full bg-gray-100 hidden xl:block">
         <header>
           <div className="flex justify-between items-center p-4">
             <h2>Overview</h2>
@@ -22,17 +22,17 @@ const Home = () => {
         </header>
         <CheckboxMenu />
       </div>
-      <div className="w-full">
+      <div className="xl:w-full bg-white">
         <div className="flex justify-center gap-12 items-center text-gray-900 text-xs bg-[#06b6d4] p-3">
           <p>Your free trial ends in 7 days. Upgrade to a plan now</p>
           <p className="font-semibold">X</p>
         </div>
-        <div className="flex m-4 gap-4 pr-4">
+        <div className="flex flex-col xl:flex-row m-4 gap-4 pr-4">
           <StudentEnrollmentCard />
           <EnrollmentChart />
           <Fourcard />
         </div>
-        <div className="flex m-4 gap-4 pr-4">
+        <div className="flex flex-col xl:flex-row m-4 gap-4 pr-4">
           <PerformanceStats />
           <Events />
           <StarStudents />

@@ -10,7 +10,7 @@ import { SlLogout } from "react-icons/sl";
 
 const SideNav = () => {
   return (
-    <div className="flex flex-col h-full w-32 text-xs bg-gray-300 text-gray-900 overflow-y-auto overflow-x-hidden relative">
+    <div className="flex flex-col xl:w-44 w-[400px] text-xs bg-gray-300 text-gray-900 overflow-y-auto overflow-x-hidden">
       <nav className="flex-1">
         <ul>
           <li className="">
